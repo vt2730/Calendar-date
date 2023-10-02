@@ -1,7 +1,7 @@
 import Button from "@/src/components/Button";
 import { useState } from "react";
 import { format } from "date-fns";
-import Calendar from "@/src/components/Calendar";
+import Calendar from "../src/components/Calendar"
 
 export default function Home() {
   const [currentDate, setCurrentDate] = useState(new Date());
